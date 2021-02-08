@@ -96,7 +96,27 @@ export default defineComponent({
           {
             text: '10',
             value: 10,
-          },          
+          },
+          {
+            text: '11',
+            value: 11,
+          },
+          {
+            text: '12',
+            value: 12,
+          },
+          {
+            text: '13',
+            value: 13,
+          },
+          {
+            text: '14',
+            value: 14,
+          },
+          {
+            text: '15',
+            value: 15,
+          }, 
         ],
     })
 
