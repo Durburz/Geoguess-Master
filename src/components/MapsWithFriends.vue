@@ -269,7 +269,7 @@ export default defineComponent({
     function mouseOutMap(): void {
       if (!state.isSelected && viewport.width > 450) {
         document.getElementById('map')!.style.opacity = '0.7'
-        document.getElementById('map')!.style.transform = 'scale(0.35)'
+        document.getElementById('map')!.style.transform = 'scale(0.375)'
       }
     }
 
@@ -360,7 +360,7 @@ export default defineComponent({
   height: 640px;
   width: 960px;
   transform-origin: bottom left;
-  transform: scale(0.35);
+  transform: scale(0.375);
   transition: transform 0.3s; 
 }
 
